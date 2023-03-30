@@ -613,8 +613,12 @@ a {
     background: #f9f9f9;
 }
 
+.footer .social-link + .social-link {
+    margin-left: 16px;
+}
+
 .footer .social-link:hover {
-    background: #ccc;
+    background: #ebebeb;
 }
 
 .footer .row-bottom {
