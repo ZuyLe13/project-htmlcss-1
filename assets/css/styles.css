@@ -186,6 +186,7 @@ a {
     height: 90px;
     padding: 0 42px;
     border-radius: 12px;
+    transition: 0.5s ease;
 }
 
 .clients .images a:hover {
@@ -312,8 +313,9 @@ a {
 }
 
 .featured .list {
-    display: flex;
-    gap: 30px; /* Tạo ra khoảng cách cho các item */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
     margin-top: 70px;
 }
 
@@ -470,6 +472,7 @@ a {
     width: 400px;
     height: 460px;
     object-fit: cover;
+    border-radius: 12px;
 }
 
 .stats .sub-title {
@@ -579,7 +582,7 @@ a {
 }
 
 .footer .row-top {
-    gap: 185px;
+    column-gap: 185px;
 }
 
 .footer .heading {
